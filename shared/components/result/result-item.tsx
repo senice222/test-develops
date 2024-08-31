@@ -1,11 +1,16 @@
 import React from 'react';
+import {VehicleModel} from "@/shared/types/Vehicles";
 
-const  = () => {
+interface ResultItem {
+    model: VehicleModel
+}
+
+const ResultItem = ({model}: ResultItem) => {
     return (
-        <div>
-
-            </div>
+        <li key={model.Model_ID} className="bg-gray-100 p-4 rounded shadow">
+            <h2 className="text-lg font-semibold">{model.Make_Name}</h2>
+        </li>
     );
 };
 
-export default ;
+export default ResultItem;

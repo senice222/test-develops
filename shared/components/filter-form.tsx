@@ -13,7 +13,7 @@ export const FilterForm: React.FC<FilterFormProps> = ({ data }) => {
     const [vehicleType, setVehicleType] = useState<string>('');
     const [modelYear, setModelYear] = useState<string>('');
 
-    // here can be used suspense, but this component renders using SSR, so i think it should be without it
+    // here can be used suspense if (CSR), but this component renders using SSR, so i think it should be without it
     return (
         <div className="w-[300px]">
             <Component.Select

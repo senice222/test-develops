@@ -5,6 +5,7 @@ import { fetchVehicleModels, getAllVehicles } from "@/shared/services/get-vehicl
 import ResultList from "@/shared/components/result/result-list";
 
 // I was thinking about adding suspense anywhere, but didn't find some case where i can use it. Everywhere using SSR
+// Maybe we can use SSG here because this page doesn’t change often.
 
 export async function generateStaticParams() {
   const data: Vehicle = await getAllVehicles();

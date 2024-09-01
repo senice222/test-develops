@@ -2,8 +2,8 @@ import React from "react";
 import { Result, Vehicle } from "@/shared/types/Vehicles";
 import "../../../../envConfig";
 import { fetchVehicleModels, getAllVehicles } from "@/shared/services/get-vehicle-models";
-import ResultList from "@/shared/components/result/result-list";
 import { notFound } from 'next/navigation';
+import * as Component from '../../../../shared/components/result/index'
 
 // Maybe we can use SSG here because this page doesn’t change often.
 
@@ -26,7 +26,7 @@ const ResultPage: React.FC<{ params: { makeId: string; year: string } }> = async
     return notFound();
   }
 
-  return <ResultList result={result.Results} />;
+  return <Component.ResultList result={result.Results} />;
 };
 
 export default ResultPage;

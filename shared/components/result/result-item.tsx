@@ -5,12 +5,10 @@ interface ResultItem {
     model: VehicleModel
 }
 
-const ResultItem = ({model}: ResultItem) => {
+export const ResultItem = ({model}: ResultItem) => {
     return (
         <li key={model.Model_ID} className="bg-gray-100 p-4 rounded shadow">
             <h2 className="text-lg font-semibold">{model.Make_Name}</h2>
         </li>
     );
 };
-
-export default ResultItem;

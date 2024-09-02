@@ -1,5 +1,5 @@
-import * as Component from '../shared/components/filter-form'
-import '../envConfig'
+import * as Component from '../../shared/components/filter-form'
+import '../../envConfig'
 import { getAllVehicles } from "@/shared/services/get-vehicle-models";
 import { notFound } from 'next/navigation';
 

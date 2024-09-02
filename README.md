@@ -5,7 +5,7 @@
 
 So on the main page you can see two standard selectors and a search button
 ## Result Page
-![Alt text](https://cdn.discordapp.com/attachments/891262578775457832/1279384853871333406/image.png?ex=66d43f7e&is=66d2edfe&hm=b8c079eea2255d9b71771fac8140c597adda6ea774c6a4e090dc5c3294d04d36&
+![Alt text](https://cdn.discordapp.com/attachments/891262578775457832/1280127172975132755/image.png?ex=66d6f2d5&is=66d5a155&hm=06471e8cdb8ec0551f5c68faa318342ffab9b4d051cdb368e45c2f7cab646dcf&
 "Optional title")
 
 Shown here is a result page that is rendered using the SSR approach and has a simple design.

@@ -6,6 +6,8 @@ interface ResultItem {
 }
 
 export const ResultItem = ({model}: ResultItem) => {
+    
+    
     return (
         <div key={model.Model_ID} className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 cursor-pointer">
             <h2 className="text-2xl font-bold text-gray-800 mb-2">{model.Make_Name}</h2>

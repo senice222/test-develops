@@ -18,13 +18,11 @@ export const FilterForm: React.FC<FilterFormProps> = ({ data }) => {
             <Component.Select
                 label="Vehicle Type"
                 options={data}
-                value={vehicleType}
                 onChange={setVehicleType}
             />
             <Component.Select
                 label="Model Year"
                 options={years}
-                value={modelYear}
                 onChange={setModelYear}
             />
             <Component.Button
